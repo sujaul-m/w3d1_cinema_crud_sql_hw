@@ -263,3 +263,11 @@ id |                title                | year | show_time
 ## Extension
 
 1.  Research how to delete multiple entries from your table in a single command.
+
+if you want to delete multiple entries where their id falls within a range you can use the
+
+where id between 16 and 20
+
+otherwise if you want to delete multiple entires for movies before 2017 you can use
+
+year < 2017
